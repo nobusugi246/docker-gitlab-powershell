@@ -1,3 +1,3 @@
 FROM microsoft/powershell:latest
 
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["/bin/bash"]
