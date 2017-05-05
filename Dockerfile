@@ -1,4 +1,6 @@
 FROM microsoft/powershell:latest
 
-ENTRYPOINT ["/bin/bash"]
+ADD entrypoint.sh entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
 CMD []
