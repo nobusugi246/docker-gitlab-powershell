@@ -6,4 +6,4 @@ case "$1" in
         ;;
 esac
 
-exec powershell "$@"
+exec pwsh "$@"
